@@ -48,6 +48,7 @@ export default factories.createCoreController('api::project.project', ({ strapi 
             id: data.documentId,
             title: data.title,
             content: data.content,
+            shortDescription: data.shortDescription,
             mainImage: data.mainImage,
             primaryStack: data.primaryStack.name,
             techStacks: data.techStacks.map(stack => stack.name)
