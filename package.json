@@ -38,5 +38,9 @@
   "strapi": {
     "uuid": "075b8c41-5792-4f7f-b8ec-0dc458d5fae9",
     "installId": "4a4ed5c65da674c4d81f8cb320ae690c3b65891ca7b4336d18b0238e294b0173"
-  }
+  },
+  "trustedDependencies": [
+    "@swc/core",
+    "core-js-pure"
+  ]
 }
